@@ -235,7 +235,7 @@ if __name__ == '__main__':
         columnnames = list()
         # columnnames = ['Patient ID1', 'Operator ID']
         while True:
-            col = input('Enter a column name (enter a blank value to end it): ')
+            col = input('Enter a column name (enter blank value to end it): ')
             if col == '':
                 break
             else:

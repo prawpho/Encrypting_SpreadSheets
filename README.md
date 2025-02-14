@@ -32,8 +32,12 @@ python cryptsheets.py ^
 -gsp <your Google sheets link> ^
 ```
 
+หลังจากกด Enter เพื่อรันโปรแกรมแล้ว จะปรากฏข้อความด้านล่าง ให้ระบุชื่อคอลัมน์ที่ต้องการใส่เข้าไป
 ```
-> Enter a column name (enter a blank value to end it): <ColumnName1>
-> Enter a column name (enter a blank value to end it): <ColumnName2>
+> Enter a column name (enter blank value to end it): <ColumnName1>
+> Enter a column name (enter blank value to end it): <ColumnName2>
 ```
+
+## Note
+สำคัญ! โปรดตรวจสอบว่าข้อมูลที่ encrypt นั้นอยู่ในรูปแบบ Scienctific notation หรือไม่ หากใช่ โปรดแก้ไข format ก่อนมิฉะนั้นอาจไม่สามารถกู้คืนข้อมูลกลับคืนมาได้!
 
