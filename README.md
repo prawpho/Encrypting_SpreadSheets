@@ -32,3 +32,8 @@ python cryptsheets.py ^
 -gsp <your Google sheets link> ^
 ```
 
+```
+> Enter a column name (enter a blank value to end it): <ColumnName1>
+> Enter a column name (enter a blank value to end it): <ColumnName2>
+```
+
